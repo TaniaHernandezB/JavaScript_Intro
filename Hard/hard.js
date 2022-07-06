@@ -1,4 +1,22 @@
 // HARD: Create 4 math functions, one called add() that adds 2 numbers, one called subtract() that subtracts 2 numbers, one called multiply() to multiply 2 numbers, and one called divide() to divide two numbers.
+// answer
+function add(a, b){
+    return a+b;
+}
+
+function subtract(a, b){
+   return a-b;
+}
+function multiply(a, b){
+    return a*b;
+}
+function divide(a, b){
+    return a/b;
+}
+
+
+// i read the question wrong so the work below is extra
+
 
 // gives user the two numbers and only allows user to choose math function
 // var num1= 20;
@@ -21,23 +39,23 @@
 // }
 
 // code below has same functionality as code above but gives user the ability to choose the two numbers
-var x= prompt("What is the first number?");
-var y= prompt("What is the second number?");
+// var x= prompt("What is the first number?");
+// var y= prompt("What is the second number?");
 
-var num1= parseInt(x);
-var num2 = parseInt(y);
+// var num1= parseInt(x);
+// var num2 = parseInt(y);
 
-var userNeed = prompt("Choose to either add, subtract, multiply, or divide the two numbers")
+// var userNeed = prompt("Choose to either add, subtract, multiply, or divide the two numbers")
 
-if (userNeed == "add"){
-    console.log(num1+=num2)
-}
-else if (userNeed == "subtract"){
-    console.log(num1-num2)
-}
-else if (userNeed == "multiply"){
-    console.log(num1*num2)
-}
-else if (userNeed == "divide"){
-    console.log(num1/num2)
-}
+// if (userNeed == "add"){
+//     console.log(num1+=num2)
+// }
+// else if (userNeed == "subtract"){
+//     console.log(num1-num2)
+// }
+// else if (userNeed == "multiply"){
+//     console.log(num1*num2)
+// }
+// else if (userNeed == "divide"){
+//     console.log(num1/num2)
+// }
