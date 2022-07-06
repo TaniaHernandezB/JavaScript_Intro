@@ -21,8 +21,11 @@
 // }
 
 // code below has same functionality as code above but gives user the ability to choose the two numbers
-var num1= prompt("What is the first number?");
-var num2= prompt("What is the second number?");
+var x= prompt("What is the first number?");
+var y= prompt("What is the second number?");
+
+var num1= parseInt(x);
+var num2 = parseInt(y);
 
 var userNeed = prompt("Choose to either add, subtract, multiply, or divide the two numbers")
 
